@@ -1,0 +1,38 @@
+.aside{
+    width: 450px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+}
+.sidebar-photo{
+    width: 10%;
+    height: 10%;
+}
+.photo-categories{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar a
+{
+    font-size: 13px;
+    color: #039;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 30px;
+    line-height: 30px;
+
+}
+.sidebar .title-categories{
+    font-weight: bold;
+    margin-left: 0px;
+}
+.sidebar .warning-p{
+    margin-left: -30px;
+}
+ul{
+    list-style-type: none;
+}

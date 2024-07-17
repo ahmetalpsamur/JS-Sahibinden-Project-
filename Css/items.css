@@ -1,0 +1,19 @@
+.cars-grid{
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px 110px 110px;
+    grid-template-rows: 95px 95px 95px 95px 95px 95px 95px;
+    column-gap: 20px;
+    row-gap: 10px;
+    border: solid;
+    border-width: 1px;
+    margin-top: 20px;
+}
+.car-img{
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+}
+.item-car{
+    font-size: 11px;
+    color: #333;
+}
